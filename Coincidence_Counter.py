@@ -1,29 +1,4 @@
 
-# coding: utf-8
-
-# # Test
-
-# In[3]:
-
-
-# from pynq import Overlay
-# ol = Overlay("./design_1.bit")
-# from pynq import GPIO
-# import time
-# import psutil
-# import matplotlib.pyplot as plt
-# import ipywidgets as widgets
-# from ipywidgets import *
-# from time import sleep
-# import pandas as pd
-# from IPython.display import clear_output 
-# %matplotlib notebook
-# plt.rcParams['animation.html'] = 'jshtml'
-
-
-# In[2]:
-
-
 from pynq import Overlay
 ol = Overlay("./design_1.bit")
 from pynq import GPIO
@@ -37,17 +12,6 @@ import pandas as pd
 from IPython.display import clear_output 
 get_ipython().magic('matplotlib notebook')
 plt.rcParams['animation.html'] = 'jshtml'
-# from pynq import GPIO
-# import time
-# import psutil
-# import matplotlib.pyplot as plt
-# import ipywidgets as widgets
-# from ipywidgets import *
-# from time import sleep
-# import pandas as pd
-# from IPython.display import clear_output 
-# %matplotlib notebook
-# plt.rcParams['animation.html'] = 'jshtml'
 
 
 # Assign variable to GPIO pins to send and recieve data
